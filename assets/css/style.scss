@@ -1,0 +1,20 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+#pages {
+  margin: 10px 0;
+}
+
+#pages .nav-link {
+  display: block !important;        // forces vertical alignment
+  margin-bottom: 10px !important;   // spacing between links
+  font-size: 16px;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+#pages .nav-link:hover {
+  text-decoration: underline;
+}

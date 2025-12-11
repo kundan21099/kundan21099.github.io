@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Contact
+permalink: /contact/
 ---
 
-## About
+## Contact
 - Email: you@example.com  
 - GitHub: https://github.com/kundan21099  
 - LinkedIn: link
