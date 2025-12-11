@@ -5,6 +5,4 @@ permalink: /contact/
 ---
 
 ## Contact
-- Email: you@example.com  
-- GitHub: https://github.com/kundan21099  
-- LinkedIn: link
+If you want to me to create a github portfolio website, feel free to message me on linkedin.

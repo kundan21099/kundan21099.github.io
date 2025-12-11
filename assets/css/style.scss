@@ -18,3 +18,11 @@
 #pages .nav-link:hover {
   text-decoration: underline;
 }
+
+.profile-image {
+  width: 150px;         /* Adjust the size as needed */
+  height: 150px;        /* Make width and height equal */
+  border-radius: 50% !important;   /* This makes it circular */
+  object-fit: cover;    /* Ensures the image scales nicely */
+  border: 2px solid #ccc; /* Optional border */
+}
