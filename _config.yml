@@ -21,7 +21,8 @@
 title: Kundan Vishnu Gaikwad
 email: kundan@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Embedded Systems Engineer
+  Embedded Systems and IoT Enthusiast 
+  Firmware Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github:

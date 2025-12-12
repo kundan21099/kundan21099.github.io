@@ -3,6 +3,13 @@
 
 @import "jekyll-theme-minimal";
 
+// Font and design adjustments
+.highlight {
+  color: #1E90FF;
+  font-weight: bold;
+}
+
+// pages navigation styling
 #pages {
   margin: 10px 0;
 }
@@ -19,10 +26,68 @@
   text-decoration: underline;
 }
 
+// Profile image styling
 .profile-image {
   width: 150px;         /* Adjust the size as needed */
   height: 150px;        /* Make width and height equal */
   border-radius: 50% !important;   /* This makes it circular */
   object-fit: cover;    /* Ensures the image scales nicely */
   border: 2px solid #ccc; /* Optional border */
+}
+
+// Project grid styling
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform .15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+// Skill bar styling
+.skill-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 15px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-level {
+  height: 100%;
+  line-height: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 0; /* initial width for animation */
+  transition: width 2s ease-in-out;
+  background-color: #1E90FF; /* default color */
+}
+
+/* Animate on page load */
+body.loaded .skill-level {
+  width: inherit;
+}
+
+/* Common scale */
+.skill-scale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #555;
 }
