@@ -9,7 +9,7 @@ permalink: /projects/
   <div class="project-card">
     <h3><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h3>
     <p>{{ repo.description }}</p>
-    <p>⭐ {{ repo.stargazers_count }} | 🍴 {{ repo.forks_count }}</p>
+    <p>💻 {{ repo.language }} | ⭐ {{ repo.stargazers_count }} | 🍴 {{ repo.forks_count }}</p>
   </div>
   {% endfor %}
 </div>
