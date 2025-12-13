@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Basic settings and Info
 title: Kundan Vishnu Gaikwad
 email: kundan@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -29,6 +30,12 @@ github:
   username:  kundan21099
 
 linkedin_url: "https://www.linkedin.com/in/kundan-gaikwad/"  
+
+# Collections (example: research papers)
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
 
 # Build settings
 theme: jekyll-theme-minimal 

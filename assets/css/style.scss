@@ -91,3 +91,21 @@ body.loaded .skill-level {
   font-weight: bold;
   color: #555;
 }
+
+// Research Paper grid styling
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.paper-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.paper-card h3 {
+  margin-top: 0;
+}
