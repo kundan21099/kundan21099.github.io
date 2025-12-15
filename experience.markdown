@@ -10,9 +10,10 @@ permalink: /experience/
 *06/2025 – 11/2025*
 
 - Developed a **Python + Robot Framework automation suite** for respiratory diagnostic firmware, reducing test execution time by **40%** for Vivatmo.  
+- Developed **test suites to execute measurment cycle** between base stationa and Vivatmo device.
 - Integrated **Jenkins CI/CD pipelines with Docker**, cutting manual regression effort by **25%**.  
-- Investigated and resolved **heater sensor instability** in Vivatmo device.  
-- Built **C++ modules for Bluetooth/SWV data parsing and visualization**, improving debug throughput by **30%**.  
+- Worked on **heater module stability enhancement** in Vivatmo device.  
+- Built **modules for SWV data parsing and visualization**, improving debug throughput by **30%**.  
 
 ---
 
