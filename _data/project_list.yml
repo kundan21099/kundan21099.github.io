@@ -11,6 +11,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: PSoC5LP
   sort_protocols: UART
+  sort_status: Completed
 
 #2
 - title: AUTOSAR RTE based Gaspedal Demo 
@@ -25,6 +26,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: PSoC5LP
   sort_protocols: UART
+  sort_status: Completed
 
 #3
 - title: Two Player Battelship Game 
@@ -39,6 +41,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #4
 - title: Create Python Module of C++ Code
@@ -53,6 +56,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #5
 - title: Draw Graphics on TFT Display using JSON Parser
@@ -67,6 +71,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: PSoC5LP
   sort_protocols: UART
+  sort_status: Completed
 
 #6
 - title: Heater Controller 
@@ -81,6 +86,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #7
 - title: Implementation of Student Database System
@@ -95,6 +101,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #8
 - title: Personal Portfolio Website
@@ -109,6 +116,7 @@
   sort_category: Web Development
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Ongoing
 
 #9
 - title: mod_nCounter
@@ -123,6 +131,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #10
 - title: MQTT App using Solace Broker
@@ -137,6 +146,7 @@
   sort_category: App Development
   sort_microcontroller: NA
   sort_protocols: MQTT
+  sort_status: Completed
 
 #11
 - title: MQTT Water Management App
@@ -151,6 +161,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: ESP8266
   sort_protocols: MQTT
+  sort_status: Completed
 
 #12
 - title: Object Detection using ESP32-S3
@@ -165,11 +176,12 @@
   sort_category: Embedded Systems
   sort_microcontroller: ESP32-S3
   sort_protocols: NA
+  sort_status: Ongoing
 
 #13
 - title: Plot Chart from SQLite Database
   url:  https://github.com/kundan21099/plot_chart_from_sqlite_database
-  description: A project to plot charts from data stored in an SQLite database using Python.
+  description: A demo app to plot charts from data stored in an SQLite database.
   languages: [Java]
   tools: [SQLite, Android Studio]
   protocols: NA
@@ -179,7 +191,7 @@
   sort_category: App Development
   sort_microcontroller: NA
   sort_protocols: NA
-
+  sort_status: Completed
 #14
 - title: Reaction Game using PSoC5LP
   url: https://github.com/kundan21099/reaction_game_using_psoc5lp
@@ -193,6 +205,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: PSoC5LP
   sort_protocols: UART
+  sort_status: Completed
 
 #15
 - title: Reversi Board Game
@@ -207,11 +220,12 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #16
 - title: Serial Communication App for Embedded Devices
   url: https://github.com/kundan21099/serial_communication_app_for_embedded-devices
-  description: An application to facilitate serial communication between embedded devices and a PC.
+  description: An App to facilitate serial communication between embedded devices and a smartphone.
   languages: [Java]
   tools: [Android Studio]
   protocols: [UART]
@@ -221,6 +235,7 @@
   sort_category: Embedded Systems
   sort_microcontroller: NA
   sort_protocols: UART
+  sort_status: Ongoing
 
 #17
 - title: SQLite Database Implementation
@@ -235,11 +250,12 @@
   sort_category: App Development
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #18
-- title: Tic Tac Toe Game
+- title: Two Player Tic Tac Toe Game
   url:  https://github.com/kundan21099/tic_tac_toe_game
-  description: A console-based implementation of the Tic Tac Toe game using OOPS concepts.
+  description: A console-based Tic Tac Toe game with Human-Human, Human-PC and PC-PC option.
   languages: [C++]
   tools: [Eclipse IDE]
   protocols: NA
@@ -249,6 +265,7 @@
   sort_category: other
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Completed
 
 #19
 - title: Plot CSV Data
@@ -263,3 +280,4 @@
   sort_category: Data Analysis
   sort_microcontroller: NA
   sort_protocols: NA
+  sort_status: Ongoing
