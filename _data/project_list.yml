@@ -1,0 +1,265 @@
+#1
+- title: AUTOSAR RTE based Digital Clock on TFT Display 
+  url:  https://github.com/kundan21099/autosar_rte_based_digital_clock_on_tft
+  description: Digital Clock on TFT Display using AUTOSAR RTE concepts.
+  languages: [C]
+  tools: [RTE, AUTOSAR, MCAL, ARM Cortex-M4 (PSoC5LP)]
+  protocols: [UART]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2024
+  sort_category: Embedded Systems
+  sort_microcontroller: PSoC5LP
+  sort_protocols: UART
+
+#2
+- title: AUTOSAR RTE based Gaspedal Demo 
+  url:  https://github.com/kundan21099/autosar_rte_based_gaspedal_demo
+  description: The joystick replicate the action of gas pedal.
+  languages: [C]
+  tools: [RTE, AUTOSAR, MCAL, ARM Cortex-M4 (PSoC5LP)]
+  protocols: [UART]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2024
+  sort_category: Embedded Systems
+  sort_microcontroller: PSoC5LP
+  sort_protocols: UART
+
+#3
+- title: Two Player Battelship Game 
+  url:  https://github.com/kundan21099/battelship_game
+  description: A Game where players guess the locations of each other's ships on a grid.
+  languages: [C++]
+  tools: [Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2023
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#4
+- title: Create Python Module of C++ Code
+  url: https://github.com/kundan21099/create_python_module_of_cplusplus
+  description: A project to create a Python module from C++ code using Pybind11.
+  languages: [C++, Python]
+  tools: [Pybind11, Mingw64, Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2025
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#5
+- title: Draw Graphics on TFT Display using JSON Parser
+  url:  https://github.com/kundan21099/draw_graphics_on_tft_display_using_json_parser
+  description: A project to draw graphics on a TFT display using JSON parser.
+  languages: [C]  
+  tools: [JSMN Library, ARM Cortex-M4 (PSoC5LP), RTOS]
+  protocols: [UART]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2023
+  sort_category: Embedded Systems
+  sort_microcontroller: PSoC5LP
+  sort_protocols: UART
+
+#6
+- title: Heater Controller 
+  url:  https://github.com/kundan21099/heater_controller 
+  description: The heater contoller architecture using OOPS concepts.
+  languages: [C++]
+  tools: [Eclipse IDE]  
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2023
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#7
+- title: Implementation of Student Database System
+  url:  https://github.com/kundan21099/implementation_of_student_database_system_demo
+  description: A student records management system using OOPS concepts.
+  languages: [C++]
+  tools: [Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2024
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#8
+- title: Personal Portfolio Website
+  url:  https://github.com/kundan21099/kundan21099.github.io
+  description: My personal portfolio website built using Jekyll.
+  languages: [HTML, CSS, Liquid]
+  tools: [Jekyll, GitHub Pages]
+  protocols: NA 
+  #Sorting keys#
+  sort_primary_language: HTML
+  sort_year: 2025
+  sort_category: Web Development
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#9
+- title: mod_nCounter
+  url: https://github.com/kundan21099/mod_nCounter
+  description: A Module that implements a character device to maintain a counter.
+  languages: [C++]
+  tools: [Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2023
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#10
+- title: MQTT App using Solace Broker
+  url: https://github.com/kundan21099/mqtt_app_using_solace_broker
+  description: A project to demonstrate MQTT communication using Solace Broker.
+  languages: [Java]
+  tools: [Solace Broker, Android Studio]
+  protocols: [MQTT]
+  #Sorting keys#
+  sort_primary_language: Java
+  sort_year: 2021
+  sort_category: App Development
+  sort_microcontroller: NA
+  sort_protocols: MQTT
+
+#11
+- title: MQTT Water Management App
+  url: https://github.com/kundan21099/mqtt_water_management_app
+  description: An application for water management using MQTT protocol.
+  languages: [Java, C]
+  tools: [ESP8266, Arduino IDE, Android Studio]
+  protocols: [MQTT]
+  #Sorting keys#
+  sort_primary_language: Java
+  sort_year: 2021
+  sort_category: Embedded Systems
+  sort_microcontroller: ESP8266
+  sort_protocols: MQTT
+
+#12
+- title: Object Detection using ESP32-S3
+  url:  https://github.com/kundan21099/object_detection_using_esp32_s3
+  description: A project to implement object detection using ESP32-S3 and TensorFlow Lite.
+  languages: [C++, Python]
+  tools: [ESP32-S3, TensorFlow Lite]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2025
+  sort_category: Embedded Systems
+  sort_microcontroller: ESP32-S3
+  sort_protocols: NA
+
+#13
+- title: Plot Chart from SQLite Database
+  url:  https://github.com/kundan21099/plot_chart_from_sqlite_database
+  description: A project to plot charts from data stored in an SQLite database using Python.
+  languages: [Java]
+  tools: [SQLite, Android Studio]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: Java
+  sort_year: 2021
+  sort_category: App Development
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#14
+- title: Reaction Game using PSoC5LP
+  url: https://github.com/kundan21099/reaction_game_using_psoc5lp
+  description: A reaction game implemented using PSoC5LP.
+  languages: [C]
+  tools: [ARM Cortex-M4 (PSoC5LP), RTOS]
+  protocols: UART
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2023
+  sort_category: Embedded Systems
+  sort_microcontroller: PSoC5LP
+  sort_protocols: UART
+
+#15
+- title: Reversi Board Game
+  url:  https://github.com/kundan21099/reversi_board_game
+  description: A console-based implementation of the Reversi board game using OOPS concepts.
+  languages: [C++]
+  tools: [Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2023
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#16
+- title: Serial Communication App for Embedded Devices
+  url: https://github.com/kundan21099/serial_communication_app_for_embedded-devices
+  description: An application to facilitate serial communication between embedded devices and a PC.
+  languages: [Java]
+  tools: [Android Studio]
+  protocols: [UART]
+  #Sorting keys#
+  sort_primary_language: Java
+  sort_year: 2022
+  sort_category: Embedded Systems
+  sort_microcontroller: NA
+  sort_protocols: UART
+
+#17
+- title: SQLite Database Implementation
+  url:  https://github.com/kundan21099/sqlite_database_implementation
+  description: A project to implement a simple SQLite database.
+  languages: [Java]
+  tools: [SQLite, Android Studio] 
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: Java
+  sort_year: 2021
+  sort_category: App Development
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#18
+- title: Tic Tac Toe Game
+  url:  https://github.com/kundan21099/tic_tac_toe_game
+  description: A console-based implementation of the Tic Tac Toe game using OOPS concepts.
+  languages: [C++]
+  tools: [Eclipse IDE]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: C++
+  sort_year: 2023
+  sort_category: other
+  sort_microcontroller: NA
+  sort_protocols: NA
+
+#19
+- title: Plot CSV Data
+  url:  https://github.com/kundan21099/plot_csv_data
+  description: A project to create interactive plots from CSV files.
+  languages: [Python]
+  tools: [Pandas, Dash, Plotly]
+  protocols: NA
+  #Sorting keys#
+  sort_primary_language: Python
+  sort_year: 2025
+  sort_category: Data Analysis
+  sort_microcontroller: NA
+  sort_protocols: NA
