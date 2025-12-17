@@ -61,8 +61,13 @@
   justify-content: flex-end;
 }
 /* Style the dropdown button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #3bb1f6;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -92,8 +97,13 @@
   background-color: #f1f1f1
 }
 
-/* Show the dropdown content on hover */
+/* Show the dropdown content on hover 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+
+.dropdown-content.show {
   display: block;
 }
 

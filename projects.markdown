@@ -5,19 +5,20 @@ permalink: /projects/
 ---
 
 <!--- added sorting--->
-
+           
 <div class="project-sort">
-  <label for="sortSelect">Sort projects by:</label>
-  <select id="sortSelect">
-    <option value="">Default</option>
-    <option value="year">Year</option>
-    <option value="language">Language</option>
-    <option value="category">Category</option>
-    <option value="protocol">Protocol</option>
-    <option value="status">Status</option>
-  </select>
+  <div class="dropdown">
+    <button class="dropbtn">Sort Projects</button>
+    <div class="dropdown-content">
+      <a href="#" data-sort="">Default</a>
+      <a href="#" data-sort="year">Year</a>
+      <a href="#" data-sort="language">Programming Language</a>
+      <a href="#" data-sort="category">Category</a>
+      <a href="#" data-sort="protocol">Protocol</a>
+      <a href="#" data-sort="status">Status</a>
+    </div>
+  </div>
 </div>
-
 
 
 <div class="project-grid" id="projectGrid">

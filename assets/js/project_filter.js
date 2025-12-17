@@ -1,19 +1,47 @@
 document.addEventListener("DOMContentLoaded", () => {
   const grid = document.getElementById("projectGrid");
   const cards = Array.from(document.querySelectorAll(".project-card"));
-  const select = document.getElementById("sortSelect");
-
   // Initial numbering (default view)
   renderDefault();
 
-  select.addEventListener("change", () => {
-    const key = select.value;
-    if (!key) {
-      renderDefault();
-    } else {
-      renderSorted(key);
-    }
+  // Event listener for sorting
+  const dropdown = document.querySelector(".dropdown");
+  const dropbtn = dropdown.querySelector(".dropbtn");
+  const dropdownContent = dropdown.querySelector(".dropdown-content");
+  const dropdownLinks = dropdownContent.querySelectorAll("a");
+
+  // Toggle dropdown on button click
+  dropbtn.addEventListener("click", e => {
+    e.stopPropagation(); // prevent click bubbling
+    dropdownContent.classList.toggle("show");
   });
+
+  // Close dropdown if clicked outside
+  document.addEventListener("click", () => {
+    dropdownContent.classList.remove("show");
+  });
+
+  // Handle sorting when link clicked
+  dropdownLinks.forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault(); // prevent jump
+      const key = link.dataset.sort;
+
+      // Call your sorting functions
+      if (!key) {
+        renderDefault(); // your existing function
+      } else {
+        renderSorted(key); // your existing function
+      }
+
+      // Update button text
+      dropbtn.textContent = "Sort projects by: " + link.textContent;
+
+      // Close dropdown
+      dropdownContent.classList.remove("show");
+    });
+  });
+
 
   // ---------------- DEFAULT VIEW ----------------
   function renderDefault() {
@@ -61,6 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .sort((a, b) => {
         if (a === "No Protocol Used") return 1;
         if (b === "No Protocol Used") return -1;
+        if (a === "Other") return 1;
+        if (b === "Other") return -1;        
+        if (a === "Completed") return 1;
+        if (b === "Completed") return -1;
         return key === "year" ? b - a : a.localeCompare(b);
       })
       .forEach(group => {
