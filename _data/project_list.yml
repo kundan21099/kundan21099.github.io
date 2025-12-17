@@ -281,3 +281,49 @@
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Ongoing
+
+
+#20
+- title: Custom GPIO and SPI Driver for STM32F103Cx
+  url:  https://github.com/kundan21099/gpio_and_spi_driver_for_stm32f103cx
+  description: A project to develop custom GPIO and SPI drivers for STM32F103Cx microcontroller.
+  languages: [C]
+  tools: [STM32F103Cx, STM32CubeIDE]
+  protocols: [SPI]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2022
+  sort_category: Embedded Systems
+  sort_microcontroller: STM32
+  sort_protocols: SPI
+  sort_status: Completed
+
+#21
+- title: UART Stdio Library for Embedded Devices
+  url:  https://github.com/kundan21099/uart_stdio_for_embedded_devices
+  description: Project includes UART I/O interface similar as standard printf/scanf for embedded devices.
+  languages: [C]  
+  tools: [STM32F103Cx, STM32CubeIDE]
+  protocols: [UART]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2022
+  sort_category: Embedded Systems
+  sort_microcontroller: STM32
+  sort_protocols: UART
+  sort_status: Completed
+
+#22
+- title: SPI Communication on STM32
+  url:  https://github.com/kundan21099/spi_communication_on_stm32
+  description: Consists of multiple projects to demonstrate SPI communication between two STM32 microcontroller.
+  languages: [C]
+  tools: [STM32F103Cx, STM32CubeIDE]
+  protocols: [SPI]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2022
+  sort_category: Embedded Systems
+  sort_microcontroller: STM32
+  sort_protocols: SPI
+  sort_status: Completed
