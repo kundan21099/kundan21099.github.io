@@ -38,7 +38,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2023
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -53,7 +53,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2025
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -83,7 +83,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2023
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -98,7 +98,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2024
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -107,7 +107,7 @@
 - title: Personal Portfolio Website
   url:  https://github.com/kundan21099/kundan21099.github.io
   description: My personal portfolio website built using Jekyll.
-  languages: [HTML, CSS, Liquid]
+  languages: [HTML, CSS, JavaScript]
   tools: [Jekyll, GitHub Pages]
   protocols: NA 
   #Sorting keys#
@@ -128,7 +128,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2023
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -217,7 +217,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2023
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed
@@ -262,7 +262,7 @@
   #Sorting keys#
   sort_primary_language: C++
   sort_year: 2023
-  sort_category: other
+  sort_category: Other
   sort_microcontroller: NA
   sort_protocols: NA
   sort_status: Completed

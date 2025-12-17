@@ -4,26 +4,51 @@ title: Projects
 permalink: /projects/
 ---
 
-<!--- Auto fetch from Gihub --->
-<!---
-<div class="project-grid">
-  {% for repo in site.github.public_repositories %}
-  <div class="project-card">  
-    <h3><a href="{{ repo.html_url }}" target="_blank">{{ forloop.index }}. {{ repo.name }}</a></h3>
-    <p>{{ repo.description }}</p>
-    <p>💻 {{ repo.language }} </p>
-  </div>
-  {% endfor %}
-</div>
---->
+<!--- added sorting--->
 
-<!--- Get From yml list --->
-<div class="project-grid">
+<div class="project-sort">
+  <label for="sortSelect">Sort projects by:</label>
+  <select id="sortSelect">
+    <option value="">Default</option>
+    <option value="year">Year</option>
+    <option value="language">Language</option>
+    <option value="category">Category</option>
+    <option value="protocol">Protocol</option>
+    <option value="status">Status</option>
+  </select>
+</div>
+
+
+
+<div class="project-grid" id="projectGrid">
   {% for project in site.data.project_list %}
-  <div class="project-card">
-    <h3><a href="{{ project.url }}">{{forloop.index}}. {{ project.title }}</a></h3>
+  <div class="project-card"
+       data-language="{{ project.sort_primary_language }}"
+       data-year="{{ project.sort_year }}"
+       data-category="{{ project.sort_category }}"
+       data-protocol="{{ project.sort_protocols }}"
+       data-status="{{ project.sort_status }}">
+
+    <h3>
+      <span class="project-number"></span>
+      <a href="{{ project.url }}">{{ project.title }}</a>
+    </h3>
+
+
     <p>{{ project.description }}</p>
-    <p>💻 {{ project.languages | join: ", " }} | 🛠️ {{ project.tools | join: ", " }} | 🔌{{ project.protocols | join: ", " }} </p>
+
+    <p class="project-meta">
+      {% if project.languages and project.languages.size > 0 and project.languages != "NA" %}
+        💻 {{ project.languages | join: ", " }}
+      {% endif %}
+      {% if project.tools and project.tools.size > 0 and project.tools != "NA" %}
+        | 🛠️ {{ project.tools | join: ", " }}
+      {% endif %}
+      {% if project.protocols and project.protocols.size > 0 and project.protocols != "NA" %}
+        | 🔌 {{ project.protocols | join: ", " }}
+      {% endif %}
+    </p>
+
   </div>
   {% endfor %}
 </div>
