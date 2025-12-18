@@ -16,6 +16,7 @@ permalink: /projects/
       <a href="#" data-sort="category">Category</a>
       <a href="#" data-sort="protocol">Protocol</a>
       <a href="#" data-sort="status">Status</a>
+      <a href="#" data-sort="microcontroller">Microcontroller</a>
     </div>
   </div>
 </div>
@@ -28,7 +29,8 @@ permalink: /projects/
        data-year="{{ project.sort_year }}"
        data-category="{{ project.sort_category }}"
        data-protocol="{{ project.sort_protocols }}"
-       data-status="{{ project.sort_status }}">
+       data-status="{{ project.sort_status }}"
+       data-microcontroller="{{ project.sort_microcontroller }}">
 
     <h3>
       <span class="project-number"></span>

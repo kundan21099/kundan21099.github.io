@@ -65,15 +65,19 @@ document.addEventListener("DOMContentLoaded", () => {
     cards.forEach(card => {
       let value = card.dataset[key];
 
-      // Special handling for protocol
-      if (key === "protocol") {
+      // Common Special handling for protocol and microcontoller
+      const fallbackLabels = {
+        protocol: "No Protocol Used",
+        microcontroller: "No Microcontroller Used"
+      };
+
+      if (fallbackLabels[key]) {
         if (!value || value === "NA") {
-          value = "No Protocol Used";
+          value = fallbackLabels[key];
         }
       } else {
         if (!value || value === "NA") return;
       }
-
       const values =
         key === "protocol"
           ? value.split(",").map(v => v.trim())
@@ -89,6 +93,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .sort((a, b) => {
         if (a === "No Protocol Used") return 1;
         if (b === "No Protocol Used") return -1;
+        if (a === "No Microcontroller Used") return 1;
+        if (b === "No Microcontroller Used") return -1;
         if (a === "Other") return 1;
         if (b === "Other") return -1;        
         if (a === "Completed") return 1;
