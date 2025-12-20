@@ -167,3 +167,136 @@ body.loaded .skill-level {
 .paper-card h3 {
   margin-top: 0;
 }
+
+// Post content styling
+/* General text */
+
+
+.post-content {
+  font-size: 1.05rem;      /* default ~1rem */
+  line-height: 1.7;
+  color: #232222;          /* darker, more readable */
+  max-width: 750px;
+}
+.post-excerpt {
+  font-size: 1.1rem;  
+  color: #1e1c1c !important;
+  margin-bottom: 1.5rem;
+}
+
+.post-content strong {
+  color: #111;
+}
+
+.post-content em {
+  color: #030303;
+}
+
+.post-content p {
+  font-size: 1.05rem;
+  text-align: justify;
+  color: #1e1c1c;
+}
+
+.post-content h1 {
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  color: #222;
+}
+
+.post-content h3 {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.post-content ul li {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #1e1c1c;
+}
+
+
+// All images in post styling
+.post-content-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+// Table of contents for post styling
+/* TOC container */
+#markdown-toc {
+  background-color: #dae4f0;  
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;             
+  list-style: none;          
+}
+
+/* TOC top-level links */
+/* Top-level TOC container */
+#markdown-toc {
+  background-color: #d4e0f0; /* light blue, adjust as needed */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #000;
+  list-style: none; /* remove default bullets */
+  font-family: sans-serif;
+}
+
+/* Top-level links */
+#markdown-toc > li > a {
+  color: #0c0f14;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Nested list items (subsections) */
+#markdown-toc li ul {
+  padding-left: 25px;  /* indent nested <ul> */
+  margin-top: 5px;
+}
+
+/* Nested links */
+#markdown-toc li ul li a {
+  color: #373a3e;
+  font-weight: 400;
+  font-size: 0.95em;
+}
+
+/* Hover effect */
+#markdown-toc a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+
+// Code block styling
+pre,
+code {
+  font-size: 0.85rem;
+}
+
+/* Block code */
+pre {
+  background: #f7f6f6 !important;
+  color: #d4d4d4;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Inline code */
+code {
+  background: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+

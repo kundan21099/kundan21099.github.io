@@ -327,3 +327,33 @@
   sort_microcontroller: STM32
   sort_protocols: SPI
   sort_status: Completed
+
+#23
+- title: MQTT Implementation using Different Brokers
+  url:  https://github.com/kundan21099/mqtt_implementation_using_different_brokers
+  description: Demonstration of MQTT communication using different brokers like AWS, Mosquitto, HiveMQ, and Solace on ESP8266.
+  languages: [C]
+  tools: [ESP8266, Arduino IDE]
+  protocols: [MQTT]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2021
+  sort_category: Embedded Systems
+  sort_microcontroller: ESP8266
+  sort_protocols: MQTT
+  sort_status: Completed
+
+#24
+- title: ESP8266 based MQTT broker for IoT applications
+  url:  https://github.com/kundan21099/esp8266_based_MQTT_broker_for_IoT_applications
+  description: Turn your ESP8266 into a standalone MQTT broker for IoT applications.
+  languages: [C]
+  tools: [ESP8266, Arduino IDE, uMQTTBroker Library]
+  protocols: [MQTT]
+  #Sorting keys#
+  sort_primary_language: C
+  sort_year: 2021
+  sort_category: Embedded Systems
+  sort_microcontroller: ESP8266
+  sort_protocols: MQTT
+  sort_status: Completed

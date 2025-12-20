@@ -43,6 +43,10 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
 
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

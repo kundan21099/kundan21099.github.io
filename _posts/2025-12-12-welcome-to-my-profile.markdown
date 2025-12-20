@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Welcome to My Profile!"
-categories: profile portfolio
+categories: profile
 ---
 
 Hi there! 👋 I’m Kundan, an embedded systems and firmware developer.  
