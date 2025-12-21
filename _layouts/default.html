@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% if jekyll.environment == "production" %}
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LM5F3VCDYY"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LM5F3VCDYY');
+      </script>
+    {% endif %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
     {% include head-custom.html %}
   </head>
   <body>
@@ -26,7 +34,7 @@
 
         <nav id="pages">
           {%- for page in site.pages %}
-            {%- if page.nav_exclude != true and page.title and page.url != "/" and page.url != "/404.html" -%}
+            {%- if page.nav_exclude != true and page.title and page.url != "/" and page.url != "/404.html" and page.url != "/privacy/" -%}
               <a href="{{ page.url | relative_url }}" class="nav-link" newline="true">{{ page.title }}</a>
               <a newline="true"></a>
             {%- endif -%}
@@ -70,6 +78,10 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+        <!-- Privacy page link -->
+        <p>
+          <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+        </p>
       </footer>
     </div>
     <!-- Commented to check if slider animation works locally and on github pages -->
