@@ -34,7 +34,7 @@ permalink: /projects/
 
     <h3>
       <span class="project-number"></span>
-      <a href="{{ project.url }}">{{ project.title }}</a>
+      <a href="{{ project.url }}" target="_blank" rel="nofollow">{{ project.title }}</a>
     </h3>
 
 

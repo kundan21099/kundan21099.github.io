@@ -11,7 +11,7 @@ permalink: /research/
     <h3>{{ paper.title }}</h3>
     <p>{{ paper.venue }} | {{ paper.year }} | {{ paper.publisher }}</p>
     <p>{{ paper.abstract | truncate: 250 }}</p>
-    <a href="{{ paper.link }}" target="_blank">View Publication</a>
+    <a href="{{ paper.link }}" target="_blank" rel="nofollow">View Publication</a>
   </div>
   {% endfor %}
 </div>
