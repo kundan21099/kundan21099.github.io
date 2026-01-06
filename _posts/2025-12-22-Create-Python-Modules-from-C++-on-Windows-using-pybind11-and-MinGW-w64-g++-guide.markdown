@@ -3,6 +3,7 @@ layout: default
 title:  "Create Python Modules from C++ on Windows using pybind11 and MinGW-w64 (g++ Guide)"
 excerpt: "Step-by-step guide to creating Python modules from C++ on Windows using pybind11 and MinGW-w64, with g++ commands and real examples." 
 categories: blogs
+permalink: /blogs/Create-Python-Modules-from-C++-on-Windows-using-pybind11-and-MinGW-w64-g++-guide/
 ---
 
 <h1>Create Python Modules from C++ on Windows using pybind11 and MinGW-w64 (g++ Guide)</h1>

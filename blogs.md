@@ -1,12 +1,14 @@
 ---
 layout: default
+title: Blogs
+permalink: /blogs/
 ---
 
 {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in site.posts -%}
-        {%- if post.title == "Welcome to My Profile!" -%}
+        {%- if post.title != "Welcome to My Profile!" -%}
           <li>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <h3>
